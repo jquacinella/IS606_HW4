@@ -28,4 +28,4 @@ b) The difference between the expectation value and the median is:
 
 $$ E[X] - x_{median} $$
 $$ = \frac{1}{\lambda} - \frac{ln(2)}{\lambda} $$
-$$ = \frac{1 - ln(2)}{\lambda} $$
+$$ = \frac{1 - ln(2)}{\lambda} > 0$$
