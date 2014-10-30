@@ -12,9 +12,11 @@ For a continuous random variable $X$, the number $m$ such that $P (X ≤ m) = 1/
  
 #### Answer
 
-a) $$ F(X) = 1 - e^{-\lambda x} $$
-$$ P(X <= x) = 1 - e^{-\lambda x} $$
-$$ P(X <= x_{median}) = 1 - e^{-\lambda x_{median}} = \frac{1}{2} $$
+a) The cumulative distribution function for this distributio is known to be: $$ F(X) = 1 - e^{-\lambda x} $$
+
+Which means that: $$ P(X <= x) = 1 - e^{-\lambda x} $$
+
+To solve for the median: $$ P(X <= x_{median}) = 1 - e^{-\lambda x_{median}} = \frac{1}{2} $$
 $$ \frac{1}{2} = 1 - e^{-\lambda x_{median}} $$
 $$ \frac{1}{2} = e^{-\lambda x_{median}} $$
 $$ ln(\frac{1}{2}) = ln(e^{-\lambda x_{median}}) $$
